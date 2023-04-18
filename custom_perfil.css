@@ -21,7 +21,10 @@ cursor: pointer;
 background-color: rgb(206, 207, 109);
 }
 .fundo_tela{
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
     width: 50vw;
     height: 100vh;
 }

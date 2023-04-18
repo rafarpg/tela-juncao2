@@ -105,6 +105,7 @@ body{
     animation: pulse 4s;
     animation: aparecer 3s;
     z-index: 2;
+    text-decoration: none;
 }
 .texto2:hover
 {
