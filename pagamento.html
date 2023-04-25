@@ -58,6 +58,8 @@
                     <br>
                     Nome do Portador: <input type="text" class="nome_titular" id="nome_titular" placeholder="Nome do Titular" />
                     <br><br>
+                    N° do Cartão: <input type="text" id="numero_cartao" class="numero_cartao" placeholder="Número do cartão" maxlength="16" onkeyup="validar();" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" />
+                    <br><br>
                     CPF: <input type="text" id="cpf" class="cpf" placeholder="CPF" maxlength="11" onkeyup="validar();" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" />
                     <br><br>
                     Validade: <input type="date" id="validade" class="validade" placeholder="Validade"> 
