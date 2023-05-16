@@ -62,9 +62,19 @@
                 <a href="tela_login.html" class="texto2" id="login" target="_self">Entrar</a>
                 </div>
         </div>
+        <div class="cookie" id="cookie">
+            Nós armazenamos dados temporariamente para melhorar a sua experiência de navegação e recomendar conteúdo de seu interesse. Ao utilizar nossos serviços, você concorda com tal monitoramento.
+            <button onclick="aceitarCookies()">Aceitar</button>
+            <a href="termos_de_uso.html" _self>Termos de uso</a>
+        </div>
     </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        function aceitarCookies() {
+          document.getElementById("cookie").style.display = "none";
+        }
+      </script>
 </body>
 
 </html>

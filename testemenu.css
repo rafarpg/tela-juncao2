@@ -105,7 +105,7 @@ body{
     animation: pulse 4s;
     animation: aparecer 3s;
     z-index: 2;
-    text-decoration-line: none;
+    text-decoration: none;
 }
 .texto2:hover
 {
@@ -115,6 +115,11 @@ body{
     border-color: azure;
     border: solid 2px;
     cursor: pointer;
+}
+.texto3
+{
+    text-decoration: none;
+    color: #ffff;
 }
   @keyframes aparecer {
     from { opacity: 0; }
